@@ -1,0 +1,5 @@
+valor = input('Valor de 3 dígitos:' )
+lista = list(valor)
+lista.reverse()
+string_invertida = ''.join(lista)
+print(f'Valor invertido: {string_invertida} ')
